@@ -1,6 +1,7 @@
 # Secureworks-SQA
 Automation assessment for Secureworks Senior QA position
 
+# Configuration
 ## Dependencies
 ### Playground project
 - Install [Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwkoz7BRBPEiwAeKw3qy4vzr1hRsbuQ1kWsQbWAy_TvEqyoLvpyvStnqstGR2rKH_ljER0FRoCBXwQAvD_BwE&gclsrc=aw.ds) Browser
@@ -17,6 +18,7 @@ Automation assessment for Secureworks Senior QA position
   - Use all settings by default
 ### ReversedWordAssessment project
 - Download and Install [Python](https://www.python.org/downloads/)
+  - Make sure you activate the 'Add python to environment variables' checkbox
 - Install IDE [Visual Studio Code](https://code.visualstudio.com/download)
   - Download installer for your SO
   - Install
@@ -30,7 +32,7 @@ Automation assessment for Secureworks Senior QA position
   - Run command 'node -v'
     - Node.js version displays
   - Run command 'npm -v'
-    - Node packafe manager version displays
+    - Node package manager version displays
 ### ReversedWordAssessment project
 - Open VS Code
 - Open terminal in command prompt mode
@@ -42,23 +44,27 @@ Automation assessment for Secureworks Senior QA position
 - Copy the link
 - On your local machine go to the folder where you want to clone the repository
 - Right click on the explorer and click Git bash here
-- Type 'git clone <link copied above>'
+- Type 'git clone insert_copied_link_here'
 - Hit enter
 
-## Run tests
-### Playground project
-#### Project containing automated tests using Cypress.
+## Cypress installation
+- Open VS Code
+- Open folder where Playground project was downloaded
+- Run command 'npm install cypress --save-dev'
+
+
+# Run tests
+## Playground project
+### Project containing automated tests using Cypress.
 
 - Open Visual Studio Code
 - Open Playground project root folder
 - Open terminal
-- Run command 'npm install'
-  - This will install cypress
-- After installation run command 'npx cypress open'
-- Click the spec test file to run the tests
+- Run command 'npx cypress open'
+- Click createArticle.spec.js test from Cypress runner.
 
-### ReversedWordsAssessment project
-#### Project that reads from TXT files with words and returns the larger word and its reversed version
+## ReversedWordsAssessment project
+### Project that reads from TXT files with words and returns the larger word and its reversed version
 - Open Visual Studio Code
 - Open ReversedWordsAssessment project folder
 - Open test folder in terminal
