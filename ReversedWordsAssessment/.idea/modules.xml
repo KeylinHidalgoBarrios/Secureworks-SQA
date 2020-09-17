@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Secureworks.iml" filepath="$PROJECT_DIR$/.idea/Secureworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReversedWordsAssessment.iml" filepath="$PROJECT_DIR$/.idea/ReversedWordsAssessment.iml" />
     </modules>
   </component>
 </project>
