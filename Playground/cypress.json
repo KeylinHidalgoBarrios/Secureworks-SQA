@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://34.205.174.166",
+    "env":{
+        "apiURL":   "http://34.205.174.166/wp-json/wc/v3/products/",
+        "username": "shopmanager",
+        "password": "axY2 rimc SzO9 cobf AZBw NLnX"
+    }
+}
