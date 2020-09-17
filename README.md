@@ -1,5 +1,5 @@
 # Secureworks-SQA
-Automation assessment for Secureworks Senior QA
+Automation assessment for Secureworks Senior QA position
 
 ## Dependencies
 ### Playground project
